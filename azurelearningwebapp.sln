@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azurelearningwebapp", "azurelearningwebapp\azurelearningwebapp.csproj", "{B4103FB1-3E6E-4997-826C-8766D76394D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualStudioWebJob", "VisualStudioWebJob\VisualStudioWebJob.csproj", "{9A4F90E9-48D3-4B6F-A941-3B5E1B6CE6C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJob1", "WebJob1\WebJob1.csproj", "{F1CE774A-6FEA-4070-84D4-404A0423A3BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureServerLessFunctionApp", "AzureServerLessFunctionApp\AzureServerLessFunctionApp.csproj", "{0F8205C5-F875-45D3-BD67-65998D69DD5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurableFunction", "DurableFunction\DurableFunction.csproj", "{81368F06-1A91-4E32-B89E-609B116ED2E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDB.DotNetSDK", "CosmosDB.DotNetSDK\CosmosDB.DotNetSDK.csproj", "{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4103FB1-3E6E-4997-826C-8766D76394D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4103FB1-3E6E-4997-826C-8766D76394D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4103FB1-3E6E-4997-826C-8766D76394D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4103FB1-3E6E-4997-826C-8766D76394D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4F90E9-48D3-4B6F-A941-3B5E1B6CE6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4F90E9-48D3-4B6F-A941-3B5E1B6CE6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4F90E9-48D3-4B6F-A941-3B5E1B6CE6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4F90E9-48D3-4B6F-A941-3B5E1B6CE6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CE774A-6FEA-4070-84D4-404A0423A3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CE774A-6FEA-4070-84D4-404A0423A3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CE774A-6FEA-4070-84D4-404A0423A3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CE774A-6FEA-4070-84D4-404A0423A3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8205C5-F875-45D3-BD67-65998D69DD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8205C5-F875-45D3-BD67-65998D69DD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8205C5-F875-45D3-BD67-65998D69DD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8205C5-F875-45D3-BD67-65998D69DD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81368F06-1A91-4E32-B89E-609B116ED2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81368F06-1A91-4E32-B89E-609B116ED2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81368F06-1A91-4E32-B89E-609B116ED2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81368F06-1A91-4E32-B89E-609B116ED2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D38FEA18-B19E-4B94-AD6C-EBE0F3EC1CB0}
+	EndGlobalSection
+EndGlobal
