@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/VehicleProvisioningApplication" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="InstrumentationKey" Value="NOT_USED" />
+    <Parameter Name="DvmStorageConnectionString" Value="##rg-dvmpro-dvmStorageConnectionString##"/>
+    <Parameter Name="Secrets_Certificate_Find_Value" Value="5540B0A094F0944384D9A5AE5621FA2630C6F93A" />
+    <Parameter Name="GlobalApiKeySecret" Value="##GlobalApiKeySecret##"/>
+    <Parameter Name="X-ApiKey" Value="##dvmApiKey##"/>
+    <Parameter Name="X-ApiKey2" Value="##dvmApiKey2##"/>	
+    <Parameter Name="Environment" Value="seb" />
+    <Parameter Name="Api_SslCertHash" Value="5540B0A094F0944384D9A5AE5621FA2630C6F93A" />
+    <Parameter Name="KeyVault.Url" Value="https://seb-glb-kv-app.vault.azure.net" />
+    <Parameter Name="KeyVault.ClientId" Value="bd7992a6-d1de-4183-a9d0-53abaa08fe24" />
+    <Parameter Name="KeyVault.ClientSecret" Value="NOT_INITIALIZED" />
+    <Parameter Name="KeyVault.ClientCertificateThumbprint" Value="5540B0A094F0944384D9A5AE5621FA2630C6F93A" />
+    <Parameter Name="KeyVault.AuthenticationMode" Value="Thumbprint" />
+    <Parameter Name="SkipServerCertificateValidation" Value="true" />
+    <Parameter Name="DvmBootClientCertificateCN" Value="dvm-boot-non-prod" />
+	  <Parameter Name="CosmosTableConnectionString" Value="##rg-dvmpro-cosmosTableConnectionString##" />
+    <Parameter Name="VehicleAutoDeclareApiService" Value="https://sf-dvm.seb.glb.avnext.net:8580/"  />
+    <Parameter Name ="FeatureFlagUrl" Value="http://conf.seb.glb.avnext.net/featureflags.json"/>
+	<Parameter Name="VehicleBatchInitiatorUrl" Value="https://seb-glb-azf-orch.azurewebsites.net/api/VehicleBatchInitiator" />
+	<Parameter Name="VehicleBatchInitiatorFunctionKey" Value="##rg-orchestrator-VehicleBatchInitiatorKey##" />
+	<Parameter Name="VehicleBatchResumerFunctionKey" Value="##rg-orchestrator-VehicleBatchResumerKey##" />
+  </Parameters>
+</Application>
